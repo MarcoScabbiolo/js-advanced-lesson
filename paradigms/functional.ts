@@ -48,6 +48,23 @@ doCarStuff(truck2)
 doCarStuff(flyingCar2)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const flyingTruck: fTruck & fFlyingCar = {
   ...truck2,
   ...flyingCar2, 
