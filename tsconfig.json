@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
-    "lib": ["ESNext", "dom"]
-  }
+    "lib": ["ESNext", "dom"],
+    "outDir": "lib"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["src/monads/observable.ts"]
 }
